@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
+}
+
+.about-us-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cityimage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Our Story Section */
+.our-story {
+    margin: 40px 0;
+}
+
+.story-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-image {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+}
+
+.story-text {
+    width: 50%;
+    text-align: left;
+}
+
+.flex-row-reverse {
+    /* flex-direction: row-reverse; */
+}
+/* @media (max-width: 720px) {
+    .flex-row-reverse {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+/* Section Titles and Descriptions */
+.section-title {
+    font-size: 2rem;
+    margin: 8px 0;
+}
+
+.section-description {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Our Values Section */
+.our-values {
+    margin: 40px 0;
+}
+
+.values-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.value-item {
+    text-align: center;
+    max-width: 250px;
+    margin: 20px;
+}
+
+.value-item h3 {
+    font-size: 1.5rem;
+    color: #c8102e;
+    /* Emirates red */
+}
+
+.value-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Our Team Section */
+.our-team {
+    margin: 40px 0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 150px;
+    margin: 20px;
+}
+
+/* Our Team Section */
+.team-member-image {
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #16c810;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 150px;
+    margin: 20px;
+    /* Remove width restriction from parent */
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    background-color: #c6c903;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.cta-description {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Our Story Section Styles */
+.our-story .story-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.story-image {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #0000001a;
+}
