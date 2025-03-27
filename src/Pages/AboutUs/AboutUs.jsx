@@ -96,7 +96,7 @@ function AboutUs() {
       </div>
 
       {/* Our Team Section */}
-      <div className="our-team text-center my-5">
+      <div className="our-team text-center my-5 overflow-scroll">
           <div className="team-container d-flex justify-content-center">
             <div className="team-member mx-3 d-md-none">
             </div>
